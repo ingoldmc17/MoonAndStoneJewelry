@@ -1,0 +1,250 @@
+/* CSS styles for BlueMountainBeadCo website created by Matt Ingold */
+
+header {
+	background-color: #97B2D6;
+	padding-top: 5px;
+	width: 100%;
+	min-height: 100px;
+}
+
+
+header .current-page {
+	color: #000000;
+}
+
+header .current-page:hover {
+	color: #ffffff;
+}
+
+nav {
+	height: auto;
+	text-align: center;
+	color: #ffffff
+}
+
+nav li {
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+
+
+
+#product-categories {
+	width: 100%;
+	text-align: center;
+}
+
+#product-categories li {
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#product-categories a {
+	color: #ffffff;
+	text-decoration: none;	
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+	background-color: #D6BB97;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+
+.products {
+	display: inline-block;
+	text-align: center;
+	border-bottom:#FFFFFF 4px solid;
+	width: 100%;
+	margin: auto;
+	border-top: #FFFFFF 4px solid;
+}
+
+.product-container {
+	width: 30%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	border: #97B2D6 2px solid;
+	min-height: 500px;
+}
+
+.product-container:hover {
+	background-color: #C0C0C0;
+}
+
+.product-container img {
+	max-height: 228px;
+	max-width: 228px;
+}
+
+.product-container p {
+	font-size: .85 em;
+	color: #ffffff;
+}
+
+footer {
+	clear: both;
+	font-size: .50em;
+	font-family: times, courier, serif;
+	margin-top: 50px;
+	text-align: right;
+}
+
+#banner {
+	text-align: center;
+	min-height: 400px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+#banner img {
+	max-width: 100%;
+}
+
+#aboutme, #howtobuy, #instagram {
+	width: 30%;
+	float: left;
+	text-align: center;
+	border: #D6BB97 2px solid;
+	overflow: hidden;
+	background-color: #97B2D6;
+	color: #ffffff;
+	min-height: 450px;
+}
+
+article a {
+	color: #000000;
+	text-transform: uppercase;
+	font-family: serif;
+	font-size: .8em;
+}
+
+article a:hover {
+	text-decoration: none;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+}
+
+article img {
+	max-height: 200px;
+	max-width: 200px;
+	margin-top: 20px;
+}
+
+#articles {
+	border-top: #ffffff 4px solid;	
+}
+
+table, th, td{
+	clear: both;
+	background-color: #ffffff;
+	border: .5em solid #97B2D6;
+	text-align: center;
+}
+
+.about {
+	float: left;
+	width: 70%;
+	text-align: center;
+	background-color: #97B2D6;
+	color: #ffffff;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.sidepic {
+	margin-top: 25px;
+	float: right;
+	display: inline;
+}
+
+.black {
+	color: black;
+}
+
+
+/* Webpage layout begins to lose integrity around 897px. Styles below for tablet viewport 
+@media(max-width: 897px) {
+	header nav, header nav li {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.product-container {
+		width: 45%;
+	}
+	
+	.about {
+		width: 80%;
+		float: none;
+		text-align: center;
+		display: block;
+	}
+	
+	.sidepic {
+		float: none;
+		margin: auto;
+		display: block;
+	}
+}
+
+
+Tablet webpage layout begins to lose integrity around 645px. Styles below for mobile viewport
+
+
+@media(max-width: 645px) {
+	
+	header nav li {
+		display: block;
+	}
+	
+	#aboutme, #howtobuy, #instagram {
+		width: 70%;
+		float: none;
+		text-align: center;
+		border: #D6BB97 2px solid;
+		overflow: hidden;
+		background-color: #97B2D6;
+		color: #ffffff;
+		min-height: 450px;
+		margin: auto;
+	}
+	
+	.product-container {
+		width: 100%;
+	}
+	
+	#product-categories li {
+		display: block;
+		float: none;
+	}
+}
+
+
+
+*/
+
+
+
+
+
