@@ -50,7 +50,7 @@ nav li a {
 #boho-banner {
 	padding: 10rem 5%;
 	position: relative;
-	background: rgba(0, 0, 0, 0); /*If our image is bright, we can tone it down with this darker overlay */
+	background: rgba(0, 0, 0, 0.3); /*If our image is bright, we can tone it down with this darker overlay */
 	min-width: 100%;
 	min-height: 100%;
 }
