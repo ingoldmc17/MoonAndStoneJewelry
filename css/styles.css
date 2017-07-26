@@ -15,21 +15,15 @@ header {
 	width: 100%;
 	min-height: 100px;
 	text-align: center;
-}
-
-
-header .current-page {
-	color: #000000;
-}
-
-header .current-page:hover {
-	color: #ffffff;
+	margin-bottom: 0;
+	padding-bottom: 1px;
 }
 
 nav {
 	height: auto;
 	text-align: center;
-	color: #97B2D6
+	color: #97B2D6;
+	background-color: #ffffff;
 }
 
 nav li {
@@ -50,12 +44,13 @@ nav li a {
 
 #background-img-container {
 	min-width: 100%;
+
 }
 
 #boho-banner {
 	padding: 10rem 5%;
 	position: relative;
-	background: rgba(0, 0, 0, 0.3); /*If our image is bright, we can tone it down with this darker overlay */
+	background: rgba(0, 0, 0, 0); /*If our image is bright, we can tone it down with this darker overlay */
 	min-width: 100%;
 	min-height: 100%;
 }
