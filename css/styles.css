@@ -1,10 +1,20 @@
 /* CSS styles for BlueMountainBeadCo website created by Matt Ingold */
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+	background-color: #D6BB97;
+}
+
 header {
-	background-color: #97B2D6;
+	/*background-color: #97B2D6;*/
+	background-color: #ffffff;
 	padding-top: 5px;
 	width: 100%;
 	min-height: 100px;
+	text-align: center;
 }
 
 
@@ -19,7 +29,7 @@ header .current-page:hover {
 nav {
 	height: auto;
 	text-align: center;
-	color: #ffffff
+	color: #97B2D6
 }
 
 nav li {
@@ -33,7 +43,16 @@ nav li a {
 	text-decoration: none;
 }
 
+.MSJ-banner {
+	background-color: #ffffff;
+	text-align: center;
+}
 
+#example {
+	text-align: center;
+	vertical-align: center;
+	padding-top: 20px;
+}
 
 
 #product-categories {
@@ -52,14 +71,6 @@ nav li a {
 	text-decoration: none;	
 }
 
-
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25em;
-	margin: 0;
-	padding: 0;
-	background-color: #D6BB97;
-}
 
 .container {
 	width: 80%;
