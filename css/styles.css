@@ -48,6 +48,32 @@ nav li a {
 	text-align: center;
 }
 
+#background-img-container {
+	min-width: 100%;
+}
+
+#boho-banner {
+	padding: 10rem 5%;
+	position: relative;
+	background: rgba(0, 0, 0, 0.3); /*If our image is bright, we can tone it down with this darker overlay */
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#boho-banner:after {
+	content: "";
+	position: absolute;
+	background-image: url('../images/example.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
 #example {
 	text-align: center;
 	vertical-align: center;
@@ -55,6 +81,26 @@ nav li a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #product-categories {
 	width: 100%;
 	text-align: center;
