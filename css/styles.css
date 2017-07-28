@@ -85,14 +85,9 @@ nav li a {
 	width: 80%;
 	margin: auto;
 	display: flex;
-	justify-content: space-between;
+	position: relative;
 }
 
-#container > div {
-	width: 22%;
-	height: 250px;
-	border: 2px dashed red;
-}
 
 #shop-tagline {
 	text-align: center;
@@ -109,6 +104,9 @@ nav li a {
 	display: inline-block;
 	padding: 0;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #shop-necklaces {
@@ -118,9 +116,11 @@ nav li a {
 	width: 22%;
 	height: 250px;
 	display: inline-block;
-	float: left;
 	padding: 0;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 25%;
 }
 
 #shop-bracelets {
@@ -132,6 +132,9 @@ nav li a {
 	display: inline-block;
 	padding: 0;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
 
 #shop-newest {
@@ -142,8 +145,10 @@ nav li a {
 	height: 250px;
 	display: inline-block;
 	padding: 0;
-	float: right;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0%;
 }
 
 
