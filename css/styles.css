@@ -1,7 +1,7 @@
 /* CSS styles for BlueMountainBeadCo website created by Matt Ingold */
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1.25em;
 	margin: 0;
 	padding: 0;
@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-	overflow-x: hidden;
 }
 
 header {
@@ -48,8 +47,9 @@ nav li a {
 
 #background-img-container {
 	min-width: 100%;
-
+	overflow-x: hidden;
 }
+
 
 #boho-banner {
 	padding: 10rem 5%;
@@ -57,6 +57,10 @@ nav li a {
 	background: rgba(0, 0, 0, 0.3); /*If our image is bright, we can tone it down with this darker overlay */
 	min-width: 100%;
 	min-height: 100%;
+}
+
+#boho-banner p {
+
 }
 
 #boho-banner:after {
@@ -73,18 +77,10 @@ nav li a {
 	opacity: 0.5; /* Tone the image down further by giving it transparency */
 }
 
-#cards {
-	background-color: #ffffff;
-	display: inline;
-}
-
 .cards {
 	padding: 0;
-	margin: 0;
-	border: solid 2px;
-	width: 80%;
 	margin: auto;
-	display: flex;
+	width: 80%;
 	position: relative;
 }
 
@@ -109,6 +105,21 @@ nav li a {
 	left: 0;
 }
 
+#shop-all:hover {
+	background-image: url('../images/vasemannequinhover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 22%;
+	height: 250px;
+	float: left;
+	display: inline-block;
+	padding: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 #shop-necklaces {
 	background-image: url('../images/crystal-wrap-choker.png');
 	background-repeat: no-repeat;
@@ -120,7 +131,21 @@ nav li a {
 	margin: auto;
 	position: absolute;
 	top: 0;
-	left: 25%;
+	left: 26%;
+}
+
+#shop-necklaces:hover {
+	background-image: url('../images/crystal-wrap-choker-hover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 22%;
+	height: 250px;
+	display: inline-block;
+	padding: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 26%;
 }
 
 #shop-bracelets {
@@ -134,7 +159,21 @@ nav li a {
 	margin: auto;
 	position: absolute;
 	top: 0;
-	left: 50%;
+	left: 52%;
+}
+
+#shop-bracelets:hover {
+	background-image: url('../images/beaded-stretch-bracelets-hover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 22%;
+	height: 250px;
+	display: inline-block;
+	padding: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 52%;
 }
 
 #shop-newest {
@@ -151,7 +190,23 @@ nav li a {
 	right: 0%;
 }
 
+#shop-newest:hover {
+	background-image: url('../images/rosary-chains-hover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 22%;
+	height: 250px;
+	display: inline-block;
+	padding: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
 
+footer {
+	margin-top: 350px;
+}
 
 
 
