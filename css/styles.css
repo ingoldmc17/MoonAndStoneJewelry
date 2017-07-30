@@ -25,7 +25,7 @@ header {
 nav {
 	height: auto;
 	text-align: center;
-	color: #97B2D6;
+	color: #606060;
 	background-color: #ffffff;
 }
 
@@ -34,6 +34,8 @@ nav li {
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-top: 5px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 14px;
 }
 
 nav li a {
